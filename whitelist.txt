@@ -1,6 +1,6 @@
 # Title: AdBlock Whitelist Compiler
 # Description: List of whitelisted domains for AdBlock filters.
-# Created: 2023-05-23
+# Created: 2023-05-24
 # Domain Count: 250
 #===============================================================
 
