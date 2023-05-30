@@ -28,7 +28,7 @@ This project combines the following filter lists by default:
 <td><a href="https://github.com/sjhgvr/oisd/">view</a></td>
 </tr>
 <tr>
-<td>1Hosts Pro/td>
+<td>1Hosts Pro</td>
 <td><a href="https://github.com/badmojr/1Hosts/">view</a></td>
 </tr>
 <tr>
