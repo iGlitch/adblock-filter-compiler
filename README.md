@@ -24,8 +24,13 @@ This project combines the following filter lists by default:
 </thead>
 <tbody>
 <tr>
-<td>OISD Full & Extra</td>
+<td>OISD Big</td>
 <td><a href="https://github.com/sjhgvr/oisd/">view</a></td>
+</tr>
+<tr>
+<tr>
+<td>HaGeZi</td>
+<td><a href="https://github.com/hagezi/dns-blocklists">view</a></td>
 </tr>
 <tr>
 <td>1Hosts Pro</td>
