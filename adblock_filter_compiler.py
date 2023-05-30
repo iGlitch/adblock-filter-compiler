@@ -2,15 +2,17 @@ import requests
 from datetime import datetime
 
 def parse_hosts_file(content):
+    """Parses a host file content into AdBlock rules."""
     lines = content.split('\n')
     adblock_rules = []
 
     for line in lines:
         line = line.strip()
-
+        # Ignore comments and empty lines
         if line.startswith('#') or line.startswith('!') or line == '':
             continue
 
+        # Check if line follows AdBlock syntax, else create new rule
         if line.startswith('||') and line.endswith('^'):
             adblock_rules.append(line)
         else:
@@ -22,6 +24,7 @@ def parse_hosts_file(content):
     return adblock_rules
 
 def generate_filter(blocklist_contents, whitelist_urls):
+    """Generates filter content from file_contents by eliminating duplicates."""
     duplicates_removed = 0
     adblock_rules_set = set()
 
@@ -49,8 +52,8 @@ def generate_filter(blocklist_contents, whitelist_urls):
     return filter_content, duplicates_removed, whitelist_content
 
 def generate_header(domain_count, duplicates_removed):
-    return f"""# Title: AdBlock Filter Compiler
-# Description: Python-based script that generates AdBlock syntax filters by combining and processing multiple blocklists, host files, and domain lists.
+    return f"""# Title: AdBlock Blacklist Compiler
+# Description: A Python script that generates AdBlock syntax filters by combining and processing multiple blocklists, host files, and domain lists.
 # Created: {datetime.now().strftime('%Y-%m-%d')}
 # Domain Count: {domain_count}
 # Duplicates Removed: {duplicates_removed}
@@ -64,19 +67,23 @@ def generate_whitelist_header(domain_count):
 #==============================================================="""
 
 def main():
+    """Main function to fetch blocklists and generate a combined filter."""
     blocklist_urls = [
-        # Hagezi Normal
-        'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt',
-        # Notrack
-        'https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts',
-        # AdGuard
-        'https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt',
+        'https://github.com/sjhgvr/oisd/blob/main/abp_full.txt?raw=true',
+        'https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_extra.txt',
+        'https://badmojr.github.io/1Hosts/Pro/adblock.txt',
+        'https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt',
+        'https://block.energized.pro/extensions/regional/formats/filter',
+        'https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt',
+        'https://hblock.molinero.dev/hosts_adblock.txt',
+        'https://gist.githubusercontent.com/iGlitch/7f49db0bb9038938249cfd7edef19b54/raw/30ffbf4d60a6b24ba3e8f44d4b49ac123348f415/firefox.txt',
+        'https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt'
     ]
 
     whitelist_urls = [
         'https://raw.githubusercontent.com/AhaDNS/Aha.Dns.Domains/master/Domains/whitelist.txt',
-        # anudeep Whitelist
         'https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt',
+        'https://box.glitchery.jp/whitelist.txt'
     ]
 
     blocklist_contents = []
@@ -86,6 +93,7 @@ def main():
 
     filter_content, duplicates_removed, whitelist_content = generate_filter(blocklist_contents, whitelist_urls)
 
+    # Write the filter content to a file
     with open('blocklist.txt', 'w') as f:
         f.write(filter_content)
 
