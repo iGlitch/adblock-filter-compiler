@@ -1,7 +1,7 @@
 # Title: AdBlock Whitelist Compiler
 # Description: List of whitelisted domains for AdBlock filters.
-# Created: 2023-05-29
-# Domain Count: 250
+# Created: 2023-05-30
+# Domain Count: 298
 #===============================================================
 
 ahadns.com
@@ -254,3 +254,51 @@ continuum.dds.microsoft.com
 connectivitycheck.gstatic.com
 connectivitycheck.android.com
 www.msftconnecttest.com
+litter.catbox.moe
+i.imgur.com
+raw.githubusercontent.com
+lan3rd.line.me
+login.live.com
+crl.tivuon.tv
+tvx.adgrx.com
+www.amazon.com
+www.ebay.com
+api.mixpanel.com
+download.windowsupdate.com
+upload.messenger.com
+codeload.github.com
+upload.wikimedia.org
+sheerid.com
+eftps.gov
+plex.tv
+plex.direct
+googlevideo.com
+playstation.com
+uguu.se
+dropbox.com
+allydvm.com
+hrpassport.com
+rakuten-static.com
+rakuten.co.jp
+rakuten.jp
+rakuten-card.co.jp
+united.com
+ual.com
+godaddy.com
+photos.google.com
+voice.google.com
+cloudflare.com
+robinhood.com
+mqtt-mini.facebook.com
+fast.fonts.net
+maxcdn.bootstrapcdn.com
+typekit.net
+typekit.com
+fonts.googleapis.com
+fonts.gstatic.com
+owcpmed.dol.gov
+flhsmv.gov
+eastmoney.com
+cdn.staticfile.org
+use.fontawesome.com
+gitcdn.github.io
