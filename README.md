@@ -11,13 +11,45 @@ This repository offers a Python script that combines and processes various block
 
 ## Included Filter Lists
 
+I like to leave the actual hard work to the professionals, like the ones below, who compile complete lists for us.  This work gathers completed lists, and organizes it into one neat file removing duplicates to get the cleanest, uniform, smallest possible file from all the lists you may want to use.
+
 This project combines the following filter lists by default:
 
-- [hagezi/dns-blocklists (multi.txt)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt)
-- [quidsup/notrack-blocklists (trackers.hosts)](https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts)
-- [oisd/blocklist-big (big.oisd.nl)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt)
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OISD Full & Extra</td>
+<td><a href="https://github.com/sjhgvr/oisd/">view</a></td>
+</tr>
+<tr>
+<td>1Hosts Pro/td>
+<td><a href="https://github.com/badmojr/1Hosts/">view</a></td>
+</tr>
+<tr>
+<td>notracking</td>
+<td><a href="https://github.com/notracking/hosts-blocklists">view</a></td>
+</tr>
+<td>GoodbyeAds</td>
+<td><a href="https://github.com/jerryn70/GoodbyeAds">view</a></td>
+</tr>
+<tr>
+<td>hblock</td>
+<td><a href="https://hblock.molinero.dev">view</a></td>
+</tr>
+<tr>
+<td>Firefox Hosts</td>
+<td><a href="https://github.com/MrRawes/firefox-hosts">view</a></td>
+</tr>
+</tbody>
+</table>
 
-You can easily add your own filter lists by modifying the `adblock_filter_generator.py` script and updating the `blocklist_urls` list with the URLs of your custom filter lists.
+You can easily add your own blocklists or whitelists by modifying the `adblock_filter_generator.py` script and updating the `blocklist_urls` or `whitelist_urls` section with the URLs of your custom filter lists.
 
 This project uses the following filter lists to whitelist by default:
 - [AhaDNS/Aha.Dns.Domains (whitelist.txt)](https://raw.githubusercontent.com/AhaDNS/Aha.Dns.Domains/master/Domains/whitelist.txt)
