@@ -69,11 +69,10 @@ def generate_whitelist_header(domain_count):
 def main():
     """Main function to fetch blocklists and generate a combined filter."""
     blocklist_urls = [
-        'https://github.com/sjhgvr/oisd/blob/main/abp_full.txt?raw=true',
-        'https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_extra.txt',
+        'https://raw.githubusercontent.com/sjhgvr/oisd/main/oisd_big.txt',
+        'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt',
         'https://badmojr.github.io/1Hosts/Pro/adblock.txt',
         'https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt',
-        'https://block.energized.pro/extensions/regional/formats/filter',
         'https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt',
         'https://hblock.molinero.dev/hosts_adblock.txt',
         'https://gist.githubusercontent.com/iGlitch/7f49db0bb9038938249cfd7edef19b54/raw/30ffbf4d60a6b24ba3e8f44d4b49ac123348f415/firefox.txt',
