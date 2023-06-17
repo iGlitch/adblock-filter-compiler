@@ -1,101 +1,121 @@
+import re
 import requests
 from datetime import datetime
+import json
+
+def is_valid_domain(domain):
+    """Checks if a string is a valid domain."""
+    domain_regex = re.compile(
+        r"^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]$"
+    )
+    return bool(domain_regex.match(domain))
 
 def parse_hosts_file(content):
     """Parses a host file content into AdBlock rules."""
     lines = content.split('\n')
-    adblock_rules = []
+    adblock_rules = set()
 
     for line in lines:
         line = line.strip()
+
         # Ignore comments and empty lines
         if line.startswith('#') or line.startswith('!') or line == '':
             continue
 
         # Check if line follows AdBlock syntax, else create new rule
         if line.startswith('||') and line.endswith('^'):
-            adblock_rules.append(line)
+            adblock_rules.add(line)
         else:
             parts = line.split()
             domain = parts[-1]
-            rule = f'||{domain}^'
-            adblock_rules.append(rule)
+            if is_valid_domain(domain):
+                rule = f'||{domain}^'
+                adblock_rules.add(rule)
 
     return adblock_rules
 
-def generate_filter(blocklist_contents, whitelist_urls):
-    """Generates filter content from file_contents by eliminating duplicates."""
+def generate_filter(file_contents, filter_type):
+    """Generates filter content from file_contents by eliminating duplicates and redundant rules."""
     duplicates_removed = 0
+    redundant_rules_removed = 0
     adblock_rules_set = set()
+    base_domain_set = set()
 
-    for content in blocklist_contents:
+    for content in file_contents:
         adblock_rules = parse_hosts_file(content)
         for rule in adblock_rules:
+            domain = rule[2:-1]  # Remove '||' and '^'
+            base_domain = '.'.join(domain.split('.')[-2:])  # Get the base domain (last two parts)
             if rule not in adblock_rules_set:
-                adblock_rules_set.add(rule)
+                # Check for redundant rules
+                if base_domain not in base_domain_set:
+                    adblock_rules_set.add(rule)
+                    base_domain_set.add(base_domain)
+                else:
+                    redundant_rules_removed += 1
             else:
                 duplicates_removed += 1
 
     sorted_rules = sorted(list(adblock_rules_set))
-    header = generate_header(len(sorted_rules), duplicates_removed)
-    filter_content = '\n'.join([header, '', *sorted_rules])  # Added empty line after the header
+    header = generate_header(len(sorted_rules), duplicates_removed, redundant_rules_removed, filter_type)
+    if filter_type == 'whitelist':
+        whitelist_rules = ['@@' + rule for rule in sorted_rules]
+        filter_content = '\n'.join([header, '', *whitelist_rules])  # Add an empty line after the header
+    else:
+        filter_content = '\n'.join([header, '', *sorted_rules])  # Add an empty line after the header
+    return filter_content, duplicates_removed, redundant_rules_removed
 
-    whitelist_rules = []
-    for url in whitelist_urls:
-        with requests.get(url) as response:
-            whitelist_content = response.text
-            whitelist_rules.extend(whitelist_content.splitlines())
-
-    whitelist_header = generate_whitelist_header(len(whitelist_rules))
-    whitelist_content = '\n'.join([whitelist_header, '', *whitelist_rules])
-
-    return filter_content, duplicates_removed, whitelist_content
-
-def generate_header(domain_count, duplicates_removed):
-    return f"""# Title: AdBlock Blacklist Compiler
-# Description: A Python script that generates AdBlock syntax filters by combining and processing multiple blocklists, host files, and domain lists.
-# Created: {datetime.now().strftime('%Y-%m-%d')}
+def generate_header(domain_count, duplicates_removed, redundant_rules_removed, filter_type):
+    """Generates header with specific domain count, removed duplicates, and compressed domains information."""
+    date_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S %Z')  # Includes date, time, and timezone
+    if filter_type == 'blacklist':
+        title = "Glitch Compiled Blacklist"
+    elif filter_type == 'whitelist':
+        title = "Glitch Compiled Whitelist"
+    else:
+        title = "Filter"
+    return f"""# Title: {title}
+# Description: Python script that generates adblock filters by combining {filter_type}s, host files, and domain lists.
+# Last Modified: {date_time}
 # Domain Count: {domain_count}
 # Duplicates Removed: {duplicates_removed}
-#==============================================================="""
+# Domains Compressed: {redundant_rules_removed}
+#=================================================================="""
 
-def generate_whitelist_header(domain_count):
-    return f"""# Title: AdBlock Whitelist Compiler
-# Description: List of whitelisted domains for AdBlock filters.
-# Created: {datetime.now().strftime('%Y-%m-%d')}
-# Domain Count: {domain_count}
-#==============================================================="""
+def get_parent_domains(domain):
+    """Generates the immediate parent domain of a given domain."""
+    parts = domain.split('.')
+    if len(parts) > 2:
+        return ['.'.join(parts[i:]) for i in range(1, 2)]
+    else:
+        return []
 
 def main():
     """Main function to fetch blocklists and generate a combined filter."""
-    blocklist_urls = [
-        'https://raw.githubusercontent.com/sjhgvr/oisd/main/oisd_big.txt',
-        'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt',
-        'https://badmojr.github.io/1Hosts/Pro/adblock.txt',
-        'https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt',
-        'https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt',
-        'https://hblock.molinero.dev/hosts_adblock.txt',
-        'https://gist.githubusercontent.com/iGlitch/7f49db0bb9038938249cfd7edef19b54/raw/30ffbf4d60a6b24ba3e8f44d4b49ac123348f415/firefox.txt',
-        'https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt'
-    ]
+    with open('config.json') as f:
+        config = json.load(f)
 
-    whitelist_urls = [
-        'https://raw.githubusercontent.com/AhaDNS/Aha.Dns.Domains/master/Domains/whitelist.txt',
-        'https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt',
-        'https://box.glitchery.jp/whitelist.txt'
-    ]
+    blacklist_urls = config['blacklist_urls']
+    whitelist_urls = config['whitelist_urls']
 
-    blocklist_contents = []
-    for url in blocklist_urls:
+    file_contents = []
+    for url in blacklist_urls:
         with requests.get(url) as response:
-            blocklist_contents.append(response.text)
+            file_contents.append(response.text)
 
-    filter_content, duplicates_removed, whitelist_content = generate_filter(blocklist_contents, whitelist_urls)
+    whitelist_contents = []
+    for url in whitelist_urls:
+        with requests.get(url) as response:
+            whitelist_contents.append(response.text)
 
-    # Write the filter content to a file
-    with open('blocklist.txt', 'w') as f:
-        f.write(filter_content)
+    blacklist_content, duplicates_removed, redundant_rules_removed = generate_filter(file_contents, 'blacklist')
+    whitelist_content, _, _ = generate_filter(whitelist_contents, 'whitelist')
 
+    # Write the blacklist content to a file
+    with open('blacklist.txt', 'w') as f:
+        f.write(blacklist_content)
+
+    # Write the whitelist content to a file
     with open('whitelist.txt', 'w') as f:
         f.write(whitelist_content)
 

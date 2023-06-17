@@ -54,7 +54,7 @@ This project combines the following filter lists by default:
 </tbody>
 </table>
 
-You can easily add your own blocklists or whitelists by modifying the `adblock_filter_generator.py` script and updating the `blocklist_urls` or `whitelist_urls` section with the URLs of your custom filter lists.
+You can easily add your own blacklists or whitelists by modifying the `config.json` script and updating the `blacklist_urls` or `whitelist_urls` section with the URLs of your custom filter lists.
 
 This project uses the following filter lists to whitelist by default:
 - [AhaDNS/Aha.Dns.Domains (whitelist.txt)](https://raw.githubusercontent.com/AhaDNS/Aha.Dns.Domains/master/Domains/whitelist.txt)
@@ -63,12 +63,12 @@ This project uses the following filter lists to whitelist by default:
 ## Usage
 
 1. Clone the repository or download the source code.
-2. Add or remove blocklist URLs in the `blocklist_urls` list (optionally add or remove whitelist URLs in the `whitelist_urls` list) in the `adblock_filter_compiler.py` file.
-4. Run the `adblock_filter_compiler.py` script. This will generate the `blocklist.txt` file with the combined filter list in AdBlock syntax format.
+2. Add or remove URLs in the `config.json` file to your liking.
+4. Run the `adblock_filter_compiler.py` script. This will generate the .txt file(s) with the combined filter list in AdBlock syntax format. Ready for import.
 
 ## Automated Updates
 
-This repository uses GitHub Actions to automate the filter generation process. The workflow runs every day and updates the `blocklist.txt` and `whitelist.txt` file if there are any changes.
+This repository uses GitHub Actions to automate the filter generation process. The workflow runs every day and updates the `blacklist.txt` and `whitelist.txt` file if there are any changes.
 
 ## Dependencies
 
