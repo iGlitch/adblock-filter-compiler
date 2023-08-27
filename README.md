@@ -56,9 +56,8 @@ This project combines the following filter lists by default:
 
 You can easily add your own blacklists or whitelists by modifying the `config.json` script and updating the `blacklist_urls` or `whitelist_urls` section with the URLs of your custom filter lists.
 
-This project uses the following filter lists to whitelist by default:
-- [AhaDNS/Aha.Dns.Domains (whitelist.txt)](https://raw.githubusercontent.com/AhaDNS/Aha.Dns.Domains/master/Domains/whitelist.txt)
-- [anudeepND/whitelist (whitelist.txt)](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt)
+This project uses my own personal whitelist by default:
+- [Glitch Whitelist](https://box.glitchery.jp/whitelist.txt)
 
 ## Usage
 
