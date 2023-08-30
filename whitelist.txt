@@ -1,13 +1,15 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2023-08-29 18:10:54 
-# Domain Count: 77
+# Last Modified: 2023-08-30 18:10:42 
+# Domain Count: 78
 # Duplicates Removed: 0
 # Domains Compressed: 23
 #==================================================================
 
+@@||a.uguu.se^
 @@||ahadns.org^
 @@||allydvm.com^
+@@||api.epicgames.dev^
 @@||api.mixpanel.com^
 @@||appleid.apple.com^
 @@||apps.skype.com^
@@ -21,9 +23,9 @@
 @@||cdn3.optimizely.com^
 @@||cloudflare.com^
 @@||crl.tivuon.tv^
-@@||dl.dropbox.com^
-@@||doh.nl.ahadns.net^
+@@||doh.in.ahadns.net^
 @@||download.windowsupdate.com^
+@@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.fonts.net^
@@ -37,7 +39,7 @@
 @@||googlevideo.com^
 @@||hrpassport.com^
 @@||i.imgur.com^
-@@||i.ytimg.com^
+@@||i1.ytimg.com^
 @@||imagesak.secureserver.net^
 @@||intercom.io^
 @@||ip.me^
@@ -55,9 +57,8 @@
 @@||owcpmed.dol.gov^
 @@||playstation.com^
 @@||plex.direct^
-@@||plex.tv^
-@@||rakuten-card.co.jp^
 @@||rakuten-static.com^
+@@||rakuten.co.jp^
 @@||rakuten.jp^
 @@||raw.githubusercontent.com^
 @@||robinhood.com^
@@ -67,12 +68,12 @@
 @@||themoviedb.com^
 @@||thetvdb.com^
 @@||tinyurl.com^
+@@||tvdb2.plex.tv^
 @@||tvx.adgrx.com^
 @@||twimg.com^
 @@||typekit.com^
 @@||typekit.net^
 @@||ual.com^
-@@||uguu.se^
 @@||united.com^
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
