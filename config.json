@@ -25,7 +25,8 @@
         "https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt",
         "https://raw.githubusercontent.com/InAUGral/pihole-blocklist-gametrackers/main/pihole-blocklist-gametrackers.txt",
         "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt",
-        "https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt"
+        "https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt",
+        "https://ceadd.ca/blockyouxlist.txt"
     ],
     "whitelist_urls": [
         "https://box.glitchery.jp/whitelist.txt"
