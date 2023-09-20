@@ -1,0 +1,10 @@
+{
+    "blacklist_urls":  [
+        "https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_big.txt"
+    ],
+    "whitelist_urls": [
+        "https://box.glitchery.jp/whitelist.txt"
+    ],
+    "blacklist_filename": "blacklist-standard.txt",
+    "whitelist_filename": "whitelist-standard.txt"
+}

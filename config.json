@@ -30,5 +30,7 @@
     ],
     "whitelist_urls": [
         "https://box.glitchery.jp/whitelist.txt"
-    ]
+    ],
+    "blacklist_filename": "blacklist.txt",
+    "whitelist_filename": "whitelist.txt"
 }

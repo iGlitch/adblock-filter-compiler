@@ -2,6 +2,7 @@ import re
 import requests
 from datetime import datetime
 import json
+import os
 
 def is_valid_domain(domain):
     """Checks if a string is a valid domain."""
@@ -90,13 +91,14 @@ def get_parent_domains(domain):
     else:
         return []
 
-def main():
-    """Main function to fetch blocklists and generate a combined filter."""
-    with open('config.json') as f:
-        config = json.load(f)
+def process_config(config_file):
+    with open(config_file, 'r') as f:
+        config_data = json.load(f)
 
-    blacklist_urls = config['blacklist_urls']
-    whitelist_urls = config['whitelist_urls']
+    blacklist_urls = config_data.get('blacklist_urls', [])
+    whitelist_urls = config_data.get('whitelist_urls', [])
+    blacklist_filename = config_data.get('blacklist_filename', 'blacklist.txt')
+    whitelist_filename = config_data.get('whitelist_filename', 'whitelist.txt')
 
     file_contents = []
     for url in blacklist_urls:
@@ -111,13 +113,17 @@ def main():
     blacklist_content, duplicates_removed, redundant_rules_removed = generate_filter(file_contents, 'blacklist')
     whitelist_content, _, _ = generate_filter(whitelist_contents, 'whitelist')
 
-    # Write the blacklist content to a file
-    with open('blacklist.txt', 'w') as f:
+    with open(blacklist_filename, 'w') as f:
         f.write(blacklist_content)
 
-    # Write the whitelist content to a file
-    with open('whitelist.txt', 'w') as f:
+    with open(whitelist_filename, 'w') as f:
         f.write(whitelist_content)
+
+def main():
+    config_files = [file for file in os.listdir() if file.startswith('config') and file.endswith('.json')]
+
+    for config_file in config_files:
+        process_config(config_file)
 
 if __name__ == "__main__":
     main()
