@@ -1,12 +1,13 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2023-09-30 18:10:04 
+# Last Modified: 2023-10-01 18:10:02 
 # Domain Count: 78
 # Duplicates Removed: 0
 # Domains Compressed: 23
 #==================================================================
 
 @@||a.uguu.se^
+@@||ahadns.com^
 @@||ahadns.org^
 @@||allydvm.com^
 @@||api.epicgames.dev^
@@ -19,11 +20,12 @@
 @@||cdn.embedly.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn3.optimizely.com^
+@@||cdn2.optimizely.com^
 @@||cdnjs.cloudflare.com^
+@@||codeload.github.com^
 @@||crl.tivuon.tv^
+@@||dl.dropbox.com^
 @@||download.windowsupdate.com^
-@@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.fonts.net^
@@ -31,7 +33,6 @@
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||gitcdn.github.io^
-@@||github.com^
 @@||godaddy.com^
 @@||goo.gl^
 @@||googlevideo.com^
@@ -47,7 +48,7 @@
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
 @@||litter.catbox.moe^
-@@||login.live.com^
+@@||live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
 @@||mqtt-mini.facebook.com^
@@ -56,14 +57,13 @@
 @@||owcpmed.dol.gov^
 @@||playstation.com^
 @@||plex.direct^
+@@||rakuten-card.co.jp^
 @@||rakuten-static.com^
-@@||rakuten.co.jp^
 @@||rakuten.jp^
 @@||raw.githubusercontent.com^
 @@||robinhood.com^
 @@||safelinking.net^
 @@||sheerid.com^
-@@||status.ahadns.com^
 @@||themoviedb.com^
 @@||thetvdb.com^
 @@||tinyurl.com^
