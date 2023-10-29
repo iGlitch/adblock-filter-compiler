@@ -1,6 +1,6 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2023-10-28 18:10:02 
+# Last Modified: 2023-10-29 18:10:25 
 # Domain Count: 82
 # Duplicates Removed: 0
 # Domains Compressed: 23
@@ -18,11 +18,12 @@
 @@||brightcove.net^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
-@@||cdn.optimizely.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdnjs.cloudflare.com^
+@@||cdn2.optimizely.com^
+@@||cloudflare.com^
 @@||crl.tivuon.tv^
+@@||dashboard.plex.tv^
 @@||dl.dropbox.com^
 @@||doh.in.ahadns.net^
 @@||download.windowsupdate.com^
@@ -49,7 +50,7 @@
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
 @@||lingva.ml^
-@@||litter.catbox.moe^
+@@||litterbox.catbox.moe^
 @@||live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
@@ -61,15 +62,15 @@
 @@||pi-dns.com^
 @@||playstation.com^
 @@||plex.direct^
-@@||plex.tv^
 @@||powerball.com^
-@@||rakuten-card.co.jp^
 @@||rakuten-static.com^
+@@||rakuten.co.jp^
 @@||rakuten.jp^
 @@||raw.githubusercontent.com^
 @@||robinhood.com^
 @@||safelinking.net^
 @@||sheerid.com^
+@@||status.ahadns.com^
 @@||themoviedb.com^
 @@||thetvdb.com^
 @@||tinyurl.com^
@@ -83,7 +84,6 @@
 @@||upload.wikimedia.org^
 @@||use.fontawesome.com^
 @@||walmart.com^
-@@||www.ahadns.com^
 @@||www.amazon.com^
 @@||www.ebay.com^
 @@||youtu.be^
