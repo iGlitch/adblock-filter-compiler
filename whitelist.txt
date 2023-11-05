@@ -1,6 +1,6 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2023-11-04 18:10:03 
+# Last Modified: 2023-11-05 18:10:07 
 # Domain Count: 82
 # Duplicates Removed: 0
 # Domains Compressed: 23
@@ -14,18 +14,19 @@
 @@||appleid.apple.com^
 @@||apps.skype.com^
 @@||apt.sonarr.tv^
+@@||bit.ly^
 @@||brightcove.net^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn2.optimizely.com^
+@@||cdn3.optimizely.com^
 @@||cloudflare.com^
 @@||codeload.github.com^
 @@||crl.tivuon.tv^
+@@||dl.dropbox.com^
 @@||dot.in.ahadns.net^
 @@||download.windowsupdate.com^
-@@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.fonts.net^
@@ -49,7 +50,7 @@
 @@||lan3rd.line.me^
 @@||lingva.ml^
 @@||litter.catbox.moe^
-@@||live.com^
+@@||login.live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
 @@||mqtt-mini.facebook.com^
@@ -57,6 +58,7 @@
 @@||ow.ly^
 @@||owcpmed.dol.gov^
 @@||photos.google.com^
+@@||pi-dns.com^
 @@||playstation.com^
 @@||plex.direct^
 @@||powerball.com^
@@ -83,8 +85,6 @@
 @@||walmart.com^
 @@||www.ahadns.com^
 @@||www.amazon.com^
-@@||www.bit.ly^
 @@||www.ebay.com^
-@@||www.pi-dns.com^
 @@||youtu.be^
 @@||youtube-nocookie.com^
