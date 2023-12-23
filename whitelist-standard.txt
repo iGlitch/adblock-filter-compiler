@@ -1,14 +1,11 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2023-12-22 18:10:41 
+# Last Modified: 2023-12-23 18:10:21 
 # Domain Count: 82
 # Duplicates Removed: 0
 # Domains Compressed: 23
 #==================================================================
 
-@@||a.uguu.se^
-@@||ahadns.com^
-@@||ahadns.net^
 @@||ahadns.org^
 @@||allydvm.com^
 @@||api.epicgames.dev^
@@ -43,6 +40,7 @@
 @@||i.imgur.com^
 @@||i1.ytimg.com^
 @@||imagesak.secureserver.net^
+@@||in.ahadns.net^
 @@||intercom.io^
 @@||ip.me^
 @@||j.mp^
@@ -59,7 +57,6 @@
 @@||ow.ly^
 @@||owcpmed.dol.gov^
 @@||photos.google.com^
-@@||pi-dns.com^
 @@||playstation.com^
 @@||plex.direct^
 @@||plex.tv^
@@ -71,6 +68,7 @@
 @@||robinhood.com^
 @@||safelinking.net^
 @@||sheerid.com^
+@@||status.ahadns.com^
 @@||themoviedb.com^
 @@||thetvdb.com^
 @@||tinyurl.com^
@@ -79,6 +77,7 @@
 @@||typekit.com^
 @@||typekit.net^
 @@||ual.com^
+@@||uguu.se^
 @@||united.com^
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
@@ -86,5 +85,6 @@
 @@||walmart.com^
 @@||www.amazon.com^
 @@||www.ebay.com^
+@@||www.pi-dns.com^
 @@||youtu.be^
 @@||youtube-nocookie.com^
