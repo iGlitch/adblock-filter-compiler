@@ -1,13 +1,12 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2023-12-25 18:10:39 
+# Last Modified: 2023-12-26 18:10:36 
 # Domain Count: 82
 # Duplicates Removed: 0
 # Domains Compressed: 23
 #==================================================================
 
 @@||a.uguu.se^
-@@||ahadns.com^
 @@||ahadns.org^
 @@||allydvm.com^
 @@||api.epicgames.dev^
@@ -15,6 +14,7 @@
 @@||appleid.apple.com^
 @@||apps.skype.com^
 @@||apt.sonarr.tv^
+@@||bit.ly^
 @@||brightcove.net^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
@@ -22,11 +22,10 @@
 @@||cdn.vidible.tv^
 @@||cdn2.optimizely.com^
 @@||cdnjs.cloudflare.com^
+@@||codeload.github.com^
 @@||crl.tivuon.tv^
-@@||dashboard.plex.tv^
-@@||dl.dropbox.com^
-@@||doh.in.ahadns.net^
 @@||download.windowsupdate.com^
+@@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.fonts.net^
@@ -35,14 +34,14 @@
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||gitcdn.github.io^
-@@||github.com^
 @@||godaddy.com^
 @@||goo.gl^
 @@||googlevideo.com^
 @@||hrpassport.com^
 @@||i.imgur.com^
-@@||i1.ytimg.com^
+@@||i.ytimg.com^
 @@||imagesak.secureserver.net^
+@@||in.ahadns.net^
 @@||intercom.io^
 @@||ip.me^
 @@||j.mp^
@@ -59,20 +58,21 @@
 @@||ow.ly^
 @@||owcpmed.dol.gov^
 @@||photos.google.com^
-@@||pi-dns.com^
 @@||playstation.com^
 @@||plex.direct^
 @@||powerball.com^
-@@||rakuten-card.co.jp^
 @@||rakuten-static.com^
+@@||rakuten.co.jp^
 @@||rakuten.jp^
 @@||raw.githubusercontent.com^
 @@||robinhood.com^
 @@||safelinking.net^
 @@||sheerid.com^
+@@||status.ahadns.com^
 @@||themoviedb.com^
 @@||thetvdb.com^
 @@||tinyurl.com^
+@@||tvdb2.plex.tv^
 @@||tvx.adgrx.com^
 @@||twimg.com^
 @@||typekit.com^
@@ -84,7 +84,7 @@
 @@||use.fontawesome.com^
 @@||walmart.com^
 @@||www.amazon.com^
-@@||www.bit.ly^
 @@||www.ebay.com^
+@@||www.pi-dns.com^
 @@||youtu.be^
 @@||youtube-nocookie.com^
