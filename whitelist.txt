@@ -1,13 +1,12 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2024-01-22 18:12:02 
+# Last Modified: 2024-01-23 18:11:52 
 # Domain Count: 82
 # Duplicates Removed: 0
 # Domains Compressed: 23
 #==================================================================
 
 @@||a.uguu.se^
-@@||ahadns.net^
 @@||ahadns.org^
 @@||allydvm.com^
 @@||api.epicgames.dev^
@@ -15,16 +14,15 @@
 @@||appleid.apple.com^
 @@||apps.skype.com^
 @@||apt.sonarr.tv^
-@@||bit.ly^
 @@||brightcove.net^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
+@@||cdn.optimizely.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn3.optimizely.com^
 @@||cdnjs.cloudflare.com^
 @@||crl.tivuon.tv^
-@@||dashboard.plex.tv^
+@@||doh.in.ahadns.net^
 @@||download.windowsupdate.com^
 @@||dropbox.com^
 @@||eastmoney.com^
@@ -50,7 +48,7 @@
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
 @@||lingva.ml^
-@@||litterbox.catbox.moe^
+@@||litter.catbox.moe^
 @@||live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
@@ -73,6 +71,7 @@
 @@||themoviedb.com^
 @@||thetvdb.com^
 @@||tinyurl.com^
+@@||tvdb2.plex.tv^
 @@||tvx.adgrx.com^
 @@||twimg.com^
 @@||typekit.com^
@@ -84,6 +83,7 @@
 @@||use.fontawesome.com^
 @@||walmart.com^
 @@||www.amazon.com^
+@@||www.bit.ly^
 @@||www.ebay.com^
 @@||www.pi-dns.com^
 @@||youtu.be^
