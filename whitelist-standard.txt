@@ -1,11 +1,12 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2024-02-09 18:10:35 
+# Last Modified: 2024-02-10 18:10:00 
 # Domain Count: 82
 # Duplicates Removed: 0
 # Domains Compressed: 23
 #==================================================================
 
+@@||ahadns.com^
 @@||ahadns.org^
 @@||allydvm.com^
 @@||api.epicgames.dev^
@@ -17,13 +18,12 @@
 @@||brightcove.net^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
+@@||cdn.optimizely.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn3.optimizely.com^
 @@||cloudflare.com^
-@@||codeload.github.com^
 @@||crl.tivuon.tv^
-@@||doh.nl.ahadns.net^
+@@||dot.nl.ahadns.net^
 @@||download.windowsupdate.com^
 @@||dropbox.com^
 @@||eastmoney.com^
@@ -34,12 +34,13 @@
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||gitcdn.github.io^
+@@||github.com^
 @@||godaddy.com^
 @@||goo.gl^
 @@||googlevideo.com^
 @@||hrpassport.com^
 @@||i.imgur.com^
-@@||i1.ytimg.com^
+@@||i.ytimg.com^
 @@||imagesak.secureserver.net^
 @@||intercom.io^
 @@||ip.me^
@@ -48,15 +49,15 @@
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
 @@||lingva.ml^
-@@||litter.catbox.moe^
-@@||login.live.com^
+@@||litterbox.catbox.moe^
+@@||live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
 @@||mqtt-mini.facebook.com^
 @@||nu.nl^
 @@||ow.ly^
 @@||owcpmed.dol.gov^
-@@||pi-dns.com^
+@@||photos.google.com^
 @@||playstation.com^
 @@||plex.direct^
 @@||powerball.com^
@@ -67,7 +68,6 @@
 @@||robinhood.com^
 @@||safelinking.net^
 @@||sheerid.com^
-@@||status.ahadns.com^
 @@||themoviedb.com^
 @@||thetvdb.com^
 @@||tinyurl.com^
@@ -82,9 +82,9 @@
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
 @@||use.fontawesome.com^
-@@||voice.google.com^
 @@||walmart.com^
 @@||www.amazon.com^
 @@||www.ebay.com^
+@@||www.pi-dns.com^
 @@||youtu.be^
 @@||youtube-nocookie.com^
