@@ -1,12 +1,14 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2024-02-14 18:11:01 
+# Last Modified: 2024-02-15 18:11:28 
 # Domain Count: 82
 # Duplicates Removed: 0
 # Domains Compressed: 23
 #==================================================================
 
 @@||a.uguu.se^
+@@||ahadns.com^
+@@||ahadns.net^
 @@||ahadns.org^
 @@||allydvm.com^
 @@||api.epicgames.dev^
@@ -22,7 +24,6 @@
 @@||cdn.vidible.tv^
 @@||cdn3.optimizely.com^
 @@||cdnjs.cloudflare.com^
-@@||codeload.github.com^
 @@||crl.tivuon.tv^
 @@||download.windowsupdate.com^
 @@||dropbox.com^
@@ -34,6 +35,7 @@
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||gitcdn.github.io^
+@@||github.com^
 @@||godaddy.com^
 @@||goo.gl^
 @@||googlevideo.com^
@@ -41,7 +43,6 @@
 @@||i.imgur.com^
 @@||i1.ytimg.com^
 @@||imagesak.secureserver.net^
-@@||in.ahadns.net^
 @@||intercom.io^
 @@||ip.me^
 @@||j.mp^
@@ -49,7 +50,7 @@
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
 @@||lingva.ml^
-@@||litterbox.catbox.moe^
+@@||litter.catbox.moe^
 @@||login.live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
@@ -57,6 +58,7 @@
 @@||nu.nl^
 @@||ow.ly^
 @@||owcpmed.dol.gov^
+@@||pi-dns.com^
 @@||playstation.com^
 @@||plex.direct^
 @@||plex.tv^
@@ -82,9 +84,7 @@
 @@||use.fontawesome.com^
 @@||voice.google.com^
 @@||walmart.com^
-@@||www.ahadns.com^
 @@||www.amazon.com^
 @@||www.ebay.com^
-@@||www.pi-dns.com^
 @@||youtu.be^
 @@||youtube-nocookie.com^
