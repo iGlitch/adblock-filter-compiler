@@ -1,11 +1,12 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2024-02-23 18:11:53 
+# Last Modified: 2024-02-24 18:10:25 
 # Domain Count: 82
 # Duplicates Removed: 0
 # Domains Compressed: 23
 #==================================================================
 
+@@||a.uguu.se^
 @@||ahadns.org^
 @@||allydvm.com^
 @@||api.epicgames.dev^
@@ -21,10 +22,8 @@
 @@||cdn2.optimizely.com^
 @@||cdnjs.cloudflare.com^
 @@||crl.tivuon.tv^
-@@||dashboard.plex.tv^
-@@||dl.dropbox.com^
-@@||doh.in.ahadns.net^
 @@||download.windowsupdate.com^
+@@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.fonts.net^
@@ -39,7 +38,7 @@
 @@||googlevideo.com^
 @@||hrpassport.com^
 @@||i.imgur.com^
-@@||i.ytimg.com^
+@@||i1.ytimg.com^
 @@||imagesak.secureserver.net^
 @@||intercom.io^
 @@||ip.me^
@@ -48,17 +47,18 @@
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
 @@||lingva.ml^
-@@||litterbox.catbox.moe^
+@@||litter.catbox.moe^
 @@||login.live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
 @@||mqtt-mini.facebook.com^
+@@||nl.ahadns.net^
 @@||nu.nl^
 @@||ow.ly^
 @@||owcpmed.dol.gov^
-@@||photos.google.com^
 @@||playstation.com^
 @@||plex.direct^
+@@||plex.tv^
 @@||powerball.com^
 @@||rakuten-card.co.jp^
 @@||rakuten-static.com^
@@ -67,7 +67,6 @@
 @@||robinhood.com^
 @@||safelinking.net^
 @@||sheerid.com^
-@@||status.ahadns.com^
 @@||themoviedb.com^
 @@||thetvdb.com^
 @@||tinyurl.com^
@@ -76,12 +75,13 @@
 @@||typekit.com^
 @@||typekit.net^
 @@||ual.com^
-@@||uguu.se^
 @@||united.com^
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
 @@||use.fontawesome.com^
+@@||voice.google.com^
 @@||walmart.com^
+@@||www.ahadns.com^
 @@||www.amazon.com^
 @@||www.bit.ly^
 @@||www.ebay.com^
