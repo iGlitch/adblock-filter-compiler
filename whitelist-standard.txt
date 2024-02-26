@@ -1,13 +1,11 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2024-02-25 18:09:39 
+# Last Modified: 2024-02-26 18:10:52 
 # Domain Count: 82
 # Duplicates Removed: 0
 # Domains Compressed: 23
 #==================================================================
 
-@@||a.uguu.se^
-@@||ahadns.com^
 @@||ahadns.org^
 @@||allydvm.com^
 @@||api.epicgames.dev^
@@ -15,19 +13,16 @@
 @@||appleid.apple.com^
 @@||apps.skype.com^
 @@||apt.sonarr.tv^
-@@||bit.ly^
 @@||brightcove.net^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
-@@||cdn.optimizely.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
+@@||cdn2.optimizely.com^
 @@||cdnjs.cloudflare.com^
 @@||crl.tivuon.tv^
-@@||dashboard.plex.tv^
-@@||doh.in.ahadns.net^
+@@||dl.dropbox.com^
 @@||download.windowsupdate.com^
-@@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.fonts.net^
@@ -56,10 +51,10 @@
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
 @@||mqtt-mini.facebook.com^
+@@||nl.ahadns.net^
 @@||nu.nl^
 @@||ow.ly^
 @@||owcpmed.dol.gov^
-@@||pi-dns.com^
 @@||playstation.com^
 @@||plex.direct^
 @@||powerball.com^
@@ -73,18 +68,23 @@
 @@||themoviedb.com^
 @@||thetvdb.com^
 @@||tinyurl.com^
+@@||tvdb2.plex.tv^
 @@||tvx.adgrx.com^
 @@||twimg.com^
 @@||typekit.com^
 @@||typekit.net^
 @@||ual.com^
+@@||uguu.se^
 @@||united.com^
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
 @@||use.fontawesome.com^
 @@||voice.google.com^
 @@||walmart.com^
+@@||www.ahadns.com^
 @@||www.amazon.com^
+@@||www.bit.ly^
 @@||www.ebay.com^
+@@||www.pi-dns.com^
 @@||youtu.be^
 @@||youtube-nocookie.com^
