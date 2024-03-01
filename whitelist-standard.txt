@@ -1,12 +1,13 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2024-02-29 18:11:50 
+# Last Modified: 2024-03-01 18:11:12 
 # Domain Count: 82
 # Duplicates Removed: 0
 # Domains Compressed: 23
 #==================================================================
 
 @@||a.uguu.se^
+@@||ahadns.com^
 @@||ahadns.org^
 @@||allydvm.com^
 @@||api.epicgames.dev^
@@ -19,11 +20,11 @@
 @@||cdn.embedly.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn3.optimizely.com^
+@@||cdn2.optimizely.com^
 @@||cdnjs.cloudflare.com^
 @@||codeload.github.com^
 @@||crl.tivuon.tv^
-@@||dashboard.plex.tv^
+@@||dot.in.ahadns.net^
 @@||download.windowsupdate.com^
 @@||dropbox.com^
 @@||eastmoney.com^
@@ -41,7 +42,6 @@
 @@||i.imgur.com^
 @@||i.ytimg.com^
 @@||imagesak.secureserver.net^
-@@||in.ahadns.net^
 @@||intercom.io^
 @@||ip.me^
 @@||j.mp^
@@ -49,7 +49,7 @@
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
 @@||lingva.ml^
-@@||litterbox.catbox.moe^
+@@||litter.catbox.moe^
 @@||login.live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
@@ -57,7 +57,6 @@
 @@||nu.nl^
 @@||ow.ly^
 @@||owcpmed.dol.gov^
-@@||pi-dns.com^
 @@||playstation.com^
 @@||plex.direct^
 @@||powerball.com^
@@ -68,10 +67,10 @@
 @@||robinhood.com^
 @@||safelinking.net^
 @@||sheerid.com^
-@@||status.ahadns.com^
 @@||themoviedb.com^
 @@||thetvdb.com^
 @@||tinyurl.com^
+@@||tvdb2.plex.tv^
 @@||tvx.adgrx.com^
 @@||twimg.com^
 @@||typekit.com^
@@ -86,5 +85,6 @@
 @@||www.amazon.com^
 @@||www.bit.ly^
 @@||www.ebay.com^
+@@||www.pi-dns.com^
 @@||youtu.be^
 @@||youtube-nocookie.com^
