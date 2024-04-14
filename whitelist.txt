@@ -1,12 +1,12 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2024-04-13 18:09:07 
+# Last Modified: 2024-04-14 22:52:58 
 # Domain Count: 82
 # Duplicates Removed: 0
 # Domains Compressed: 23
 #==================================================================
 
-@@||ahadns.com^
+@@||a.uguu.se^
 @@||ahadns.org^
 @@||allydvm.com^
 @@||api.epicgames.dev^
@@ -17,16 +17,14 @@
 @@||brightcove.net^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
+@@||cdn.optimizely.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn2.optimizely.com^
 @@||cdnjs.cloudflare.com^
-@@||codeload.github.com^
 @@||crl.tivuon.tv^
 @@||dashboard.plex.tv^
-@@||doh.nl.ahadns.net^
+@@||dl.dropbox.com^
 @@||download.windowsupdate.com^
-@@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.fonts.net^
@@ -35,12 +33,13 @@
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||gitcdn.github.io^
+@@||github.com^
 @@||godaddy.com^
 @@||goo.gl^
 @@||googlevideo.com^
 @@||hrpassport.com^
 @@||i.imgur.com^
-@@||i.ytimg.com^
+@@||i1.ytimg.com^
 @@||imagesak.secureserver.net^
 @@||intercom.io^
 @@||ip.me^
@@ -50,18 +49,19 @@
 @@||lan3rd.line.me^
 @@||lingva.ml^
 @@||litterbox.catbox.moe^
-@@||login.live.com^
+@@||live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
 @@||mqtt-mini.facebook.com^
+@@||nl.ahadns.net^
 @@||nu.nl^
 @@||ow.ly^
 @@||owcpmed.dol.gov^
 @@||playstation.com^
 @@||plex.direct^
 @@||powerball.com^
-@@||rakuten-card.co.jp^
 @@||rakuten-static.com^
+@@||rakuten.co.jp^
 @@||rakuten.jp^
 @@||raw.githubusercontent.com^
 @@||robinhood.com^
@@ -75,13 +75,13 @@
 @@||typekit.com^
 @@||typekit.net^
 @@||ual.com^
-@@||uguu.se^
 @@||united.com^
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
 @@||use.fontawesome.com^
 @@||voice.google.com^
 @@||walmart.com^
+@@||www.ahadns.com^
 @@||www.amazon.com^
 @@||www.bit.ly^
 @@||www.ebay.com^
