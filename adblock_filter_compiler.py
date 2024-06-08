@@ -34,7 +34,7 @@ def parse_hosts_file(content):
             if is_valid_domain(domain):
                 adblock_rules.add(f'||{domain}^')
 
-    return 
+    return adblock_rules
 
 def generate_filter(file_contents, filter_type):
     """Generates filter content from file_contents by eliminating duplicates and redundant rules."""
