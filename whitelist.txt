@@ -1,12 +1,11 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2024-06-25 18:13:41 
+# Last Modified: 2024-06-26 18:12:32 
 # Domain Count: 78
 # Duplicates Removed: 0
 # Domains Compressed: 14
 #==================================================================
 
-@@||a.uguu.se^
 @@||allydvm.com^
 @@||anon.to^
 @@||api.mixpanel.com^
@@ -20,15 +19,15 @@
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
 @@||cdn3.optimizely.com^
-@@||cloudflare.com^
+@@||cdnjs.cloudflare.com^
 @@||crl.tivuon.tv^
+@@||dashboard.plex.tv^
 @@||download.windowsupdate.com^
 @@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.com^
 @@||fast.fonts.net^
-@@||files.catbox.moe^
 @@||files.shroomery.org^
 @@||flalottery.com^
 @@||flhsmv.gov^
@@ -42,13 +41,14 @@
 @@||hrpassport.com^
 @@||i.ibb.co^
 @@||i.imgur.com^
-@@||i.ytimg.com^
+@@||i1.ytimg.com^
 @@||imagesak.secureserver.net^
 @@||intercom.io^
 @@||ip.me^
 @@||j.mp^
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
+@@||litterbox.catbox.moe^
 @@||live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
@@ -56,13 +56,11 @@
 @@||nu.nl^
 @@||ow.ly^
 @@||owcpmed.dol.gov^
-@@||photos.google.com^
 @@||playstation.com^
 @@||plex.direct^
-@@||plex.tv^
 @@||powerball.com^
-@@||rakuten-card.co.jp^
 @@||rakuten-static.com^
+@@||rakuten.co.jp^
 @@||rakuten.jp^
 @@||raw.githubusercontent.com^
 @@||robinhood.com^
@@ -75,10 +73,12 @@
 @@||typekit.com^
 @@||typekit.net^
 @@||ual.com^
+@@||uguu.se^
 @@||united.com^
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
 @@||use.fontawesome.com^
+@@||voice.google.com^
 @@||walmart.com^
 @@||www.amazon.com^
 @@||www.ebay.com^
