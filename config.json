@@ -13,11 +13,14 @@
         "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt",
         "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt",
         "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-YouTube-AdBlock-Filter.txt",
+        "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Apple-AdBlock.txt",
+        "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt",
         "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
         "https://blocklistproject.github.io/Lists/phishing.txt",
         "https://blocklistproject.github.io/Lists/ransomware.txt",
         "https://blocklistproject.github.io/Lists/tracking.txt",
         "https://blocklistproject.github.io/Lists/scam.txt",
+        "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
         "https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt",
         "https://hblock.molinero.dev/hosts_adblock.txt",
         "https://gist.githubusercontent.com/iGlitch/7f49db0bb9038938249cfd7edef19b54/raw/30ffbf4d60a6b24ba3e8f44d4b49ac123348f415/firefox.txt",
@@ -26,7 +29,15 @@
         "https://raw.githubusercontent.com/InAUGral/pihole-blocklist-gametrackers/main/pihole-blocklist-gametrackers.txt",
         "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt",
         "https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt",
-        "https://ceadd.ca/blockyouxlist.txt"
+        "https://ceadd.ca/blockyouxlist.txt",
+        "https://raw.githubusercontent.com/blocklistproject/Lists/master/vaping.txt",
+        "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt",
+        "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt",
+        "https://raw.githubusercontent.com/blocklistproject/Lists/master/scam.txt",
+        "https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt",
+        "https://raw.githubusercontent.com/blocklistproject/Lists/master/gambling.txt",
+        "https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt",
+        "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt"
     ],
     "whitelist_urls": [
         "https://box.glitchery.jp/whitelist.txt"
