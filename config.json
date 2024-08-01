@@ -44,7 +44,7 @@
         "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt"
     ],
     "whitelist_urls": [
-        "https://box.glitchery.jp/whitelist.txt"
+        "https://corefusion.xyz/whitelist.txt"
     ],
     "blacklist_filename": "blacklist.txt",
     "whitelist_filename": "whitelist.txt"
