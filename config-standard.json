@@ -5,7 +5,7 @@
         "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt"
     ],
     "whitelist_urls": [
-        "https://box.glitchery.jp/whitelist.txt"
+        "https://corefusion.xyz/whitelist.txt"
     ],
     "blacklist_filename": "blacklist-standard.txt",
     "whitelist_filename": "whitelist-standard.txt"
