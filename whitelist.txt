@@ -1,26 +1,25 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2024-07-30 18:13:18 
+# Last Modified: 2024-08-01 13:11:52 
 # Domain Count: 78
 # Duplicates Removed: 0
 # Domains Compressed: 14
 #==================================================================
 
+@@||a.uguu.se^
 @@||allydvm.com^
 @@||anon.to^
 @@||api.mixpanel.com^
 @@||appleid.apple.com^
 @@||apps.skype.com^
 @@||apt.sonarr.tv^
-@@||bit.ly^
 @@||brightcove.net^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
+@@||cdn.optimizely.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn3.optimizely.com^
-@@||cloudflare.com^
-@@||codeload.github.com^
+@@||cdnjs.cloudflare.com^
 @@||crl.tivuon.tv^
 @@||download.windowsupdate.com^
 @@||dropbox.com^
@@ -28,27 +27,28 @@
 @@||eftps.gov^
 @@||fast.com^
 @@||fast.fonts.net^
-@@||files.catbox.moe^
 @@||files.shroomery.org^
 @@||flalottery.com^
 @@||flhsmv.gov^
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||gitcdn.github.io^
+@@||github.com^
 @@||godaddy.com^
 @@||goo.gl^
 @@||googlevideo.com^
 @@||hrpassport.com^
 @@||i.ibb.co^
 @@||i.imgur.com^
-@@||i.ytimg.com^
+@@||i1.ytimg.com^
 @@||imagesak.secureserver.net^
 @@||intercom.io^
 @@||ip.me^
 @@||j.mp^
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
-@@||live.com^
+@@||litter.catbox.moe^
+@@||login.live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
 @@||mqtt-mini.facebook.com^
@@ -60,8 +60,8 @@
 @@||plex.direct^
 @@||plex.tv^
 @@||powerball.com^
+@@||rakuten-card.co.jp^
 @@||rakuten-static.com^
-@@||rakuten.co.jp^
 @@||rakuten.jp^
 @@||raw.githubusercontent.com^
 @@||robinhood.com^
@@ -74,13 +74,13 @@
 @@||typekit.com^
 @@||typekit.net^
 @@||ual.com^
-@@||uguu.se^
 @@||united.com^
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
 @@||use.fontawesome.com^
 @@||walmart.com^
 @@||www.amazon.com^
+@@||www.bit.ly^
 @@||www.ebay.com^
 @@||youtu.be^
 @@||youtube-nocookie.com^
