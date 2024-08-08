@@ -1,11 +1,12 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2024-08-07 18:13:30 
+# Last Modified: 2024-08-08 18:14:23 
 # Domain Count: 78
 # Duplicates Removed: 0
 # Domains Compressed: 14
 #==================================================================
 
+@@||a.uguu.se^
 @@||allydvm.com^
 @@||anon.to^
 @@||api.mixpanel.com^
@@ -16,13 +17,14 @@
 @@||brightcove.net^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
+@@||cdn.optimizely.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn2.optimizely.com^
 @@||cdnjs.cloudflare.com^
 @@||crl.tivuon.tv^
+@@||dashboard.plex.tv^
+@@||dl.dropbox.com^
 @@||download.windowsupdate.com^
-@@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.com^
@@ -48,7 +50,7 @@
 @@||j.mp^
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
-@@||live.com^
+@@||login.live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
 @@||mqtt-mini.facebook.com^
@@ -58,7 +60,6 @@
 @@||photos.google.com^
 @@||playstation.com^
 @@||plex.direct^
-@@||plex.tv^
 @@||powerball.com^
 @@||rakuten-static.com^
 @@||rakuten.co.jp^
@@ -74,7 +75,6 @@
 @@||typekit.com^
 @@||typekit.net^
 @@||ual.com^
-@@||uguu.se^
 @@||united.com^
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
