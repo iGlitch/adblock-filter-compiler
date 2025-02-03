@@ -1,6 +1,6 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2025-02-02 18:13:52 
+# Last Modified: 2025-02-03 18:15:23 
 # Domain Count: 77
 # Duplicates Removed: 0
 # Domains Compressed: 14
@@ -13,13 +13,14 @@
 @@||appleid.apple.com^
 @@||apps.skype.com^
 @@||apt.sonarr.tv^
+@@||bit.ly^
 @@||brightcove.net^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn2.optimizely.com^
-@@||cloudflare.com^
+@@||cdn3.optimizely.com^
+@@||cdnjs.cloudflare.com^
 @@||crl.tivuon.tv^
 @@||dashboard.plex.tv^
 @@||download.windowsupdate.com^
@@ -79,7 +80,6 @@
 @@||voice.google.com^
 @@||walmart.com^
 @@||www.amazon.com^
-@@||www.bit.ly^
 @@||www.ebay.com^
 @@||youtu.be^
 @@||youtube-nocookie.com^
