@@ -1,18 +1,18 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2025-03-15 18:14:55 
+# Last Modified: 2025-03-16 18:15:14 
 # Domain Count: 77
 # Duplicates Removed: 0
 # Domains Compressed: 14
 #==================================================================
 
+@@||a.uguu.se^
 @@||allydvm.com^
 @@||anon.to^
 @@||api.mixpanel.com^
 @@||appleid.apple.com^
 @@||apps.skype.com^
 @@||apt.sonarr.tv^
-@@||bit.ly^
 @@||brightcove.net^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
@@ -20,6 +20,7 @@
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
 @@||cloudflare.com^
+@@||codeload.github.com^
 @@||crl.tivuon.tv^
 @@||dl.dropbox.com^
 @@||download.windowsupdate.com^
@@ -33,7 +34,6 @@
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||gitcdn.github.io^
-@@||github.com^
 @@||godaddy.com^
 @@||goo.gl^
 @@||googlevideo.com^
@@ -55,7 +55,6 @@
 @@||nu.nl^
 @@||ow.ly^
 @@||owcpmed.dol.gov^
-@@||photos.google.com^
 @@||plex.direct^
 @@||plex.tv^
 @@||powerball.com^
@@ -73,13 +72,14 @@
 @@||typekit.com^
 @@||typekit.net^
 @@||ual.com^
-@@||uguu.se^
 @@||united.com^
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
 @@||use.fontawesome.com^
+@@||voice.google.com^
 @@||walmart.com^
 @@||www.amazon.com^
+@@||www.bit.ly^
 @@||www.ebay.com^
 @@||youtu.be^
 @@||youtube-nocookie.com^
