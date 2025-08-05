@@ -1,6 +1,6 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2025-08-04 18:20:17 
+# Last Modified: 2025-08-05 18:21:39 
 # Domain Count: 77
 # Duplicates Removed: 0
 # Domains Compressed: 14
@@ -18,8 +18,8 @@
 @@||cdn.embedly.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn2.optimizely.com^
-@@||cdnjs.cloudflare.com^
+@@||cdn3.optimizely.com^
+@@||cloudflare.com^
 @@||codeload.github.com^
 @@||crl.tivuon.tv^
 @@||download.windowsupdate.com^
@@ -40,7 +40,7 @@
 @@||hrpassport.com^
 @@||i.ibb.co^
 @@||i.imgur.com^
-@@||i1.ytimg.com^
+@@||i.ytimg.com^
 @@||imagesak.secureserver.net^
 @@||intercom.io^
 @@||ip.me^
@@ -48,14 +48,13 @@
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
 @@||litterbox.catbox.moe^
-@@||login.live.com^
+@@||live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
 @@||mqtt-mini.facebook.com^
 @@||nu.nl^
 @@||ow.ly^
 @@||owcpmed.dol.gov^
-@@||photos.google.com^
 @@||plex.direct^
 @@||plex.tv^
 @@||powerball.com^
@@ -78,6 +77,7 @@
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
 @@||use.fontawesome.com^
+@@||voice.google.com^
 @@||walmart.com^
 @@||www.amazon.com^
 @@||www.ebay.com^
