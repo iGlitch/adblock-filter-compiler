@@ -1,6 +1,6 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2025-10-08 18:19:02 
+# Last Modified: 2025-10-09 18:17:54 
 # Domain Count: 77
 # Duplicates Removed: 0
 # Domains Compressed: 14
@@ -17,12 +17,11 @@
 @@||cdn.embedly.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn3.optimizely.com^
-@@||cloudflare.com^
-@@||codeload.github.com^
+@@||cdn2.optimizely.com^
+@@||cdnjs.cloudflare.com^
 @@||crl.tivuon.tv^
-@@||dl.dropbox.com^
 @@||download.windowsupdate.com^
+@@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.com^
@@ -33,13 +32,14 @@
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||gitcdn.github.io^
+@@||github.com^
 @@||godaddy.com^
 @@||goo.gl^
 @@||googlevideo.com^
 @@||hrpassport.com^
 @@||i.ibb.co^
 @@||i.imgur.com^
-@@||i1.ytimg.com^
+@@||i.ytimg.com^
 @@||imagesak.secureserver.net^
 @@||intercom.io^
 @@||ip.me^
@@ -47,7 +47,7 @@
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
 @@||litter.catbox.moe^
-@@||login.live.com^
+@@||live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
 @@||mqtt-mini.facebook.com^
