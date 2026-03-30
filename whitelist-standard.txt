@@ -1,11 +1,12 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2026-03-29 18:30:40 
+# Last Modified: 2026-03-30 18:50:15 
 # Domain Count: 77
 # Duplicates Removed: 0
 # Domains Compressed: 14
 #==================================================================
 
+@@||a.uguu.se^
 @@||allydvm.com^
 @@||anon.to^
 @@||api.mixpanel.com^
@@ -19,7 +20,7 @@
 @@||cdn.optimizely.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdnjs.cloudflare.com^
+@@||cloudflare.com^
 @@||codeload.github.com^
 @@||crl.tivuon.tv^
 @@||dashboard.plex.tv^
@@ -41,14 +42,14 @@
 @@||hrpassport.com^
 @@||i.ibb.co^
 @@||i.imgur.com^
-@@||i.ytimg.com^
+@@||i1.ytimg.com^
 @@||imagesak.secureserver.net^
 @@||intercom.io^
 @@||ip.me^
 @@||j.mp^
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
-@@||litterbox.catbox.moe^
+@@||litter.catbox.moe^
 @@||live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
@@ -59,8 +60,8 @@
 @@||photos.google.com^
 @@||plex.direct^
 @@||powerball.com^
+@@||rakuten-card.co.jp^
 @@||rakuten-static.com^
-@@||rakuten.co.jp^
 @@||rakuten.jp^
 @@||raw.githubusercontent.com^
 @@||robinhood.com^
@@ -73,7 +74,6 @@
 @@||typekit.com^
 @@||typekit.net^
 @@||ual.com^
-@@||uguu.se^
 @@||united.com^
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
