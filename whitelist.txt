@@ -1,6 +1,6 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2026-09-02 20:20:44 
+# Last Modified: 2026-09-03 20:20:39 
 # Domain Count: 78
 # Duplicates Removed: 0
 # Domains Compressed: 14
@@ -12,16 +12,15 @@
 @@||appleid.apple.com^
 @@||apps.skype.com^
 @@||apt.sonarr.tv^
+@@||bit.ly^
 @@||brightcove.net^
-@@||catbox.moe^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
+@@||cdn.optimizely.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
-@@||cdn3.optimizely.com^
-@@||cloudflare.com^
+@@||cdnjs.cloudflare.com^
 @@||cock.li^
-@@||codeload.github.com^
 @@||crl.tivuon.tv^
 @@||dashboard.plex.tv^
 @@||download.windowsupdate.com^
@@ -36,19 +35,21 @@
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||gitcdn.github.io^
+@@||github.com^
 @@||godaddy.com^
 @@||goo.gl^
 @@||googlevideo.com^
 @@||hrpassport.com^
 @@||i.ibb.co^
 @@||i.imgur.com^
-@@||i.ytimg.com^
+@@||i1.ytimg.com^
 @@||imagesak.secureserver.net^
 @@||intercom.io^
 @@||ip.me^
 @@||j.mp^
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
+@@||litterbox.catbox.moe^
 @@||live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
@@ -58,8 +59,8 @@
 @@||owcpmed.dol.gov^
 @@||plex.direct^
 @@||powerball.com^
-@@||rakuten-card.co.jp^
 @@||rakuten-static.com^
+@@||rakuten.co.jp^
 @@||rakuten.jp^
 @@||raw.githubusercontent.com^
 @@||robinhood.com^
@@ -80,7 +81,6 @@
 @@||voice.google.com^
 @@||walmart.com^
 @@||www.amazon.com^
-@@||www.bit.ly^
 @@||www.ebay.com^
 @@||youtu.be^
 @@||youtube-nocookie.com^
