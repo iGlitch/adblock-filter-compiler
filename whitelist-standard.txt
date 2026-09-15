@@ -1,6 +1,6 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2026-09-14 21:13:48 
+# Last Modified: 2026-09-15 20:42:21 
 # Domain Count: 78
 # Duplicates Removed: 0
 # Domains Compressed: 14
@@ -13,17 +13,18 @@
 @@||apps.skype.com^
 @@||apt.sonarr.tv^
 @@||brightcove.net^
+@@||catbox.moe^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
-@@||cdn.optimizely.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
+@@||cdn3.optimizely.com^
 @@||cloudflare.com^
 @@||cock.li^
 @@||codeload.github.com^
 @@||crl.tivuon.tv^
-@@||dl.dropbox.com^
 @@||download.windowsupdate.com^
+@@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.com^
@@ -40,14 +41,13 @@
 @@||hrpassport.com^
 @@||i.ibb.co^
 @@||i.imgur.com^
-@@||i1.ytimg.com^
+@@||i.ytimg.com^
 @@||imagesak.secureserver.net^
 @@||intercom.io^
 @@||ip.me^
 @@||j.mp^
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
-@@||litter.catbox.moe^
 @@||live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
@@ -55,6 +55,7 @@
 @@||nu.nl^
 @@||ow.ly^
 @@||owcpmed.dol.gov^
+@@||photos.google.com^
 @@||plex.direct^
 @@||plex.tv^
 @@||powerball.com^
@@ -77,7 +78,6 @@
 @@||upload.messenger.com^
 @@||upload.wikimedia.org^
 @@||use.fontawesome.com^
-@@||voice.google.com^
 @@||walmart.com^
 @@||www.amazon.com^
 @@||www.bit.ly^
