@@ -1,6 +1,6 @@
 # Title: Glitch Compiled Whitelist
 # Description: Python script that generates adblock filters by combining whitelists, host files, and domain lists.
-# Last Modified: 2026-09-18 20:13:02 
+# Last Modified: 2026-09-19 19:49:56 
 # Domain Count: 78
 # Duplicates Removed: 0
 # Domains Compressed: 14
@@ -14,16 +14,18 @@
 @@||apt.sonarr.tv^
 @@||bit.ly^
 @@||brightcove.net^
+@@||catbox.moe^
 @@||cdn.cloudflare.net^
 @@||cdn.embedly.com^
-@@||cdn.optimizely.com^
 @@||cdn.staticfile.org^
 @@||cdn.vidible.tv^
+@@||cdn3.optimizely.com^
 @@||cdnjs.cloudflare.com^
 @@||cock.li^
 @@||crl.tivuon.tv^
+@@||dashboard.plex.tv^
+@@||dl.dropbox.com^
 @@||download.windowsupdate.com^
-@@||dropbox.com^
 @@||eastmoney.com^
 @@||eftps.gov^
 @@||fast.com^
@@ -48,8 +50,7 @@
 @@||j.mp^
 @@||jsdelivr.net^
 @@||lan3rd.line.me^
-@@||litter.catbox.moe^
-@@||live.com^
+@@||login.live.com^
 @@||login.microsoftonline.com^
 @@||maxcdn.bootstrapcdn.com^
 @@||mqtt-mini.facebook.com^
@@ -57,7 +58,6 @@
 @@||ow.ly^
 @@||owcpmed.dol.gov^
 @@||plex.direct^
-@@||plex.tv^
 @@||powerball.com^
 @@||rakuten-card.co.jp^
 @@||rakuten-static.com^
